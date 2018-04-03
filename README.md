@@ -31,27 +31,41 @@ $ npm run build
 目录结构
 ```js
 src
+├── assets
+    ├── css
+    ├── icon
+    ├── img
+    ├── js
+├── common
+    ├── api
+    ├── inputRules.js
+├── components
+    ├── navbar.vue
+    ├── loading.vue
+├── mock
+    ├── test.json
 ├── router
     ├── index.js
-├── assets
-    ├── logo.png
-├── components
-	├── Hello
-		├── index.js
-	├── index.js
-├── views
-    ├── HelloWorld
-        ├── images
-            ├── logo.png
-        ├── HelloWorld.vue
-├── styles
-	├── common.css
 ├── store
-    ├── global
-        ├── global.js
-        ├── index.js
+    ├── member
     ├── index.js
-├── app.vue
+├── utils    
+    ├── md5.js
+├── views
+    ├── common
+        ├── error.vue
+	├── login.vue
+	├── register.vue
+    ├── home
+        ├── index.vue
+    ├── detail
+        ├── index.vue	
+    ├── member
+        ├── index.vue
+    ├── app.vue
+├── style
+	├── common.scss
+├── index.html
 ├── index.js
 ```
 
