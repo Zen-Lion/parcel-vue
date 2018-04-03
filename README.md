@@ -33,11 +33,17 @@ $ npm run build
 src
 ├── assets
     ├── css
+    	├── common.css
     ├── icon
+        ├── icons.png
     ├── img
+    	├── logo.png
     ├── js
+        ├── common.js
 ├── common
     ├── api
+        ├── axios.js
+	├── http.js
     ├── inputRules.js
 ├── components
     ├── navbar.vue
@@ -47,7 +53,6 @@ src
 ├── router
     ├── index.js
 ├── store
-    ├── member
     ├── index.js
 ├── utils    
     ├── md5.js
@@ -63,8 +68,6 @@ src
     ├── member
         ├── index.vue
     ├── app.vue
-├── style
-	├── common.scss
 ├── index.html
 ├── index.js
 ```
