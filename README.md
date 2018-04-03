@@ -64,7 +64,7 @@ src
     ├── home
         ├── index.vue
     ├── detail
-        ├── index.vue	
+        ├── index.vue
     ├── member
         ├── index.vue
     ├── app.vue
